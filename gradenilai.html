@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>switch</title>
+</head>
+<script language="javascript" type="text/javascript">
+	var a;
+	var b;
+	var c;
+	a=prompt("Masukkan nilai anda");
+	b=parseInt(a);
+	if (a>=70) {
+		b=80;
+	}else if (a>=70) {
+		b=70;
+	}else if (a>=60) {
+		b=60;
+	}else if (a>=50) {
+		b=50;
+	}else if (a<50) {
+		b=40;
+	}
+
+switch (b) {
+	case 80 : alert("Anda mendapatkan grade A");
+	   break;
+	case 70 : alert("Anda mendapatkan grade B");
+	   break;
+	case 60 : alert("Anda mendapatkan grade C");
+	   break;
+	case 50 : alert("Anda mendapatkan grade D");
+	   break;
+	case 40 : alert("Anda mendapatkan grade E");
+	   break;
+	 default : alert("tidak boleh memasukkan huruf");     	      
+}
+</script>
+
+</body>
+</html>
